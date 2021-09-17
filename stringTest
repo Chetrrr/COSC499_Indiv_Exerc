@@ -1,3 +1,4 @@
+#string unittest
 import unittest
 from stringCOncat import stringConcat
 
