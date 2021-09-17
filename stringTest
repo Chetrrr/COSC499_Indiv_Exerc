@@ -1,0 +1,10 @@
+import unittest
+from stringCOncat import stringConcat
+
+class test (unittest.TestCase):
+    def test2(self):
+        concatS = stringConcat("hello", "world")
+        self.assertEqual((concatS),("helloworld"))
+
+if __name__ == '__main__':
+    unittest.main()
